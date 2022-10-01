@@ -1,0 +1,1194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* -------------------Start First Page--------------------- */
+.firstpage
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(../imgs/xhero_bg.jpg.pagespeed.ic.08xBTGP0Gm.jpg);
+        overflow: hidden;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+}
+.meal
+{
+    float: left;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: white;
+}
+
+span
+{
+    color:#ff5200;      
+}
+.navs li a
+{
+    padding-top: 20px;
+    background-color:transparent;
+    color: grey;
+}
+
+.navs li a:hover
+{
+    color: aliceblue;
+}
+
+.book-table
+{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 2px 5px;
+    background: #ff5200;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.book-table:hover
+{
+background-color: #fd6e2c;
+}
+
+.firstpage .text .text1 
+{
+    margin-top: 200px;
+}
+
+.firstpage .text
+{
+    color: aliceblue;
+    position: absolute;
+  
+
+}
+.firstpage .text .treat
+{
+    font-weight: bold;
+    font-size: 70px;
+    font-family: Playfair Display, serif;
+}
+
+.firstpage .text .lastone
+{
+    font-family: "Nunito", sans-serif;
+    display: inline;
+}
+
+.linkcolor
+{
+    color: #ffffff;
+    -webkit-box-shadow: 0 5px 0 0 #ff5200;
+    box-shadow: 0 5px 0 0 #ff5200;
+    text-decoration: none;
+}
+
+.lastp
+{
+    left: 150px;
+}
+
+.Explore
+{
+    
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 2px 5px;
+    background: #ff5200;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Explore:hover
+{
+    background-color: #fd6e2c;
+}
+
+.scroll-down
+{
+    margin-top: 140px;
+    font-size: 10px;
+}
+
+p {
+    margin-top: -3px;
+    margin-bottom: 0rem;
+}
+/* -------------------End First Page--------------------- */
+
+/* -------------------Start First Page media style--------------------- */
+
+/* For Tablet */
+
+@media(max-width: 767px)
+{
+    .firstpage .text .text1 {
+        margin-top: 120px;
+    }
+
+    .firstpage .text {
+        color: aliceblue;
+        position: absolute;
+       
+    }
+
+    .scroll-down {
+        margin-top: 90px;
+        font-size: 10px;
+    }
+
+    .firstpage .text .treat {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+}
+
+/* For Mobile */
+
+@media (max-width: 600px)
+{
+    .firstpage
+    {
+        height: 888px;
+    }
+    .firstpage .text {
+        color: aliceblue;
+        position: absolute;
+        margin-top: 112px;
+    }
+
+    .firstpage .text .text1 {
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    .lastp {
+
+        font-size: 12px;
+    }
+}
+/* -------------------End First Page media style--------------------- */
+/* -------------------Start Second Page--------------------- */
+
+.secondpage
+{
+    width: 100%;
+    background-color: wheat;
+    height: auto;
+   margin: auto;
+   overflow: hidden;
+}  
+  .part1
+  {
+      width: 25%;
+      background-color: wheat;
+      overflow: hidden;
+  }
+  
+  .secondpage .part1 .h1-1
+  {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-left: 80px;
+      color: grey;
+  }
+  
+.secondpage .part1 .h1-2
+  {
+      margin-left: 80px;
+      color: #fd6e2c;
+      font-family: "Playfair Display",serif;
+  }
+  
+  .part1 ul
+  {
+      margin-left: 90px;
+      list-style-type: none;
+  }
+  
+   .secondpage .part2 
+   {
+    width: 75%;
+    background-color: wheat;
+   }
+
+   .secondpage .part2 h1
+   {
+    margin-top: 65px;
+    text-align: left;
+   }
+
+   .secondpage .part2 .content
+   {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+   }
+
+   .secondpage .part2 .content .imgs .price
+   {
+    color: #fd6e2c;
+   }
+
+   .secondpage .part2 .content div
+   {
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 20px;
+    width: 40%;
+    height: 10%;
+    transition: 0.4s;
+   }
+
+   .secondpage .part2 .content div:hover
+   {
+    transform: scale(1.1);
+   }
+
+   .secondpage .part2 .content div img
+   {
+    width: 100%;
+    border-radius: 12px;
+   }
+
+
+  .style
+  {
+      margin-bottom: 10px;
+      border-radius: 12px;
+      margin-bottom: 80px;
+  }
+
+  .space
+  {
+    margin-left: 10px;
+  }
+
+
+  .secondpage .part1 ul li
+  {
+    margin-top: 20px;
+  }
+  .secondpage .part1 ul li .btn
+  {
+    width: 200px;
+    height: 50px;
+    border-radius: 18px;
+    border: 0px;
+    font-size: 20px;
+  }
+
+  .secondpage .part1 ul li .btn:hover
+  {
+    background-color: #fff;
+    color: #fd6e2c;
+  }
+
+  .mealname
+  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .secondpage .choosedessert 
+  {
+    text-align: center;
+  }
+
+  .secondpage .choosedessert .d-h1
+  {
+    font-size: 18px;
+     color: grey;
+     margin-top: 50px;
+  }
+
+
+  .secondpage .part3
+  {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #f5deb3;
+  }
+  
+
+  .secondpage .part3 .dessert
+  {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .secondpage .part3 .dessert div:hover
+  {
+    background-color: #fff;
+  }
+
+  .secondpage .part3 .dessert div
+  {
+    width: 150px;
+    height: auto;
+    padding-left: 14px;
+  }
+
+  .secondpage .part3 .dessert p
+  {
+    color: #fd6e2c;
+    margin: 5px;
+    font-size: large;
+  }
+
+/* --------------------------End Second Page Style--------- */
+
+/* ----------------Start Second Page Media style------------- */
+
+/* For tablet */
+
+ @media(max-width:768px)
+{
+    .part1 {
+    width: 100%;
+    text-align: center;
+    }
+
+    .secondpage .part2 {
+        width: 100%;
+    }
+
+    .secondpage .part2 h1 {
+        margin-top: 38px;
+        text-align: center;
+    }
+
+    .secondpage .part2 .content div
+    {
+        width: 39%;
+    }
+
+    .secondpage .part1 .h1-1 {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-right: 66px
+    }
+
+    .secondpage .part1 .h1-2 {
+        margin-left: 0px;
+    }
+
+    .part1 ul {
+    margin-left: 0px;
+    list-style-type: none;
+}
+} 
+
+
+/* For Mobile */
+
+@media (max-width: 600px)
+{
+    .secondpage .part2 .content div {
+        width: 100%;
+    }
+
+    .secondpage .part2 .content {
+        margin-left: 20px;
+    }
+
+    .secondpage .part3 .dessert div
+    {
+        width: 160px;
+    }
+
+}
+
+/* ----------------End Second Page Media style------------- */
+
+/* ----------------Start Third Page style------------- */
+
+.thirdpage
+{
+    width: 100%;
+    height: 700px;
+   margin: auto;
+   overflow: hidden;
+
+}
+
+.container-fluid
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    height: auto;
+}
+
+.bg
+{
+    width: 100%;
+    height: 100vh;
+    background: rgba(245, 201, 126, 0.9);
+    background-color: #FEE2B3 transparent;
+    background-image: linear-gradient( rgba(245, 201, 126, 0.9),rgba(245, 201, 126, 0.9)),
+url(/imgs/xhero_bg_2.jpg.pagespeed.ic.idX1ZTc2Sk.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.content
+{
+    display: flex;
+}
+
+.container-fluid .bg .personinfo
+{
+    text-align: center;
+    width: 40%;
+    font-family: "Playfair Display", serif;
+}
+
+.container-fluid .bg .personinfo h4
+{
+    padding-top: 40px;
+    font-size: 16px;
+    margin-left: -190px;
+    color: grey;
+}
+
+
+
+.container-fluid .bg h1 span
+{
+    color: #fd6e2c;
+}
+
+.card img
+{
+    width: 80px !important  ;
+    border-radius: 50% !important;
+    margin-left: 100px;
+    margin-top: 25px;
+
+}
+
+.cardcolor
+{
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+}
+
+.careerfont
+{
+    font-size: medium;
+}
+
+.job
+{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 50%;  
+} 
+
+ .job
+{
+    width: 50%;
+    height: auto;
+}
+
+.photos1
+{
+    width: 25%;
+    height: auto;
+    margin-top: 50px;
+} 
+
+.photos2
+{
+    width: 25%;
+    height: auto;
+    margin-top: 50px;
+} 
+
+.photos1 .p-gallery
+{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos1 .p-gallery img
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: all 0.1;
+}
+
+.photos1 .p-gallery img:hover
+{
+    transform: scale(1.1);
+}
+
+.photos2 .p-gallery
+{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos2 .p-gallery img
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: all 0.1;
+
+}
+
+.mg-l
+{
+    margin-left: 150px;
+}
+
+.photos2 .p-gallery img:hover
+{
+    transform: scale(1.1);
+}
+
+.galleries
+{
+    position: relative;
+    font-family: "Playfair Display", serif;
+}
+
+.galleries h4
+{
+    position: absolute;
+    top: -80px;
+    color: gray;
+    font-size: large;
+    left: px;
+}
+
+.galleries h1
+{
+    position: absolute;
+    top: -50px;
+    display: flex;
+}
+
+.galleries h1 span
+{
+    margin-left: 10px;
+}
+
+.photos1 .p-gallery .moregalleries
+{
+    text-align: left;
+}
+
+.photos1 .p-gallery .moregalleries button 
+{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #ff5200 ;
+    
+    margin-bottom: -2px;
+}
+
+.photos1 .p-gallery .moregalleries button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.photos1 .p-gallery .moregalleries button:hover
+{
+    background-color:#fd6e2c;
+} 
+/* ----------------End Third Page  style------------- */
+
+/* ----------------Start Third Page media style------------- */
+
+/* For Tablet */
+@media(max-width:768px)
+{
+    .container-fluid .bg .personinfo h4 {
+        font-size: 16px;
+        margin-left: -137px;
+    }
+
+    .mg-l
+    {
+        margin-left: 22px;
+    }
+    
+
+    .container-fluid .bg .personinfo h1
+    {
+        font-size: xx-large;
+    }
+
+    .photos1 {
+        width: 34%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .photos2 {
+        width: 30%;
+    }
+
+    .galleries h1 {
+        left: 20px;
+    }
+
+    .galleries h4 {
+        left: 20px;
+    }
+
+    .card-title {
+        margin-bottom: .75rem;
+        margin-top: 70px;
+    }
+}
+
+/* For Mobile */
+@media (max-width: 600px)
+{
+    .content {
+        display: block;
+    }
+
+    .job {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-fluid .bg .personinfo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-fluid .bg .personinfo h4 {
+        font-size: 16px;
+        margin-left: 1px;
+        text-align: center;
+    }
+
+    .photos1 {
+        width: 91%;
+        margin-left: 26px;
+    }
+
+    .photos2 {
+        width: 91%;
+        margin-left: 25px;
+        margin-top: 300px;
+    }
+
+    .thirdpage
+    {
+        height: 1573px;
+    }
+
+    .bg {
+        width: 100%;
+        height: 2500px;
+    }
+    .photos1 .p-gallery .moregalleries {
+        text-align: center;
+        width: 100%;
+    }
+
+    .photos1 .p-gallery
+    {
+        margin-top: 80px;
+    }
+
+    .galleries h4 {
+        left: 170px;
+        top: 1px;
+    }
+
+    .galleries h1 {
+        top: 25px;
+        left: 127px;
+        font-size: x-large;
+    }
+
+    .mg-l
+    {
+    margin-left: 62px;
+    }
+
+    .card-title {
+        margin-bottom: .75rem;
+        margin-top: 70px;
+    }
+
+    .card img {
+        margin-left: 102px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:320px)
+{
+    .galleries h4 {
+        left: 122px;
+    }
+
+    .galleries h1 {
+        top: 25px;
+        left: 88px;
+    }
+
+    .mg-l
+    {
+        margin-left: 15px;
+    }
+
+    /* .card img {
+        margin-left: 102px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    } */
+}
+
+/* ----------------End Third Page media style------------- */
+
+/** ----------------Start Fourth Page style------------- */
+
+.fourthpage
+{
+    width: 100%;
+    height: auto;
+}
+
+.fourthpage .part-1
+{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    text-align: center;
+}
+
+.fourthpage .part-1 .header1  
+{
+    padding-top: 70px;
+    font-family: "Playfair Display", serif;
+}
+
+.fourthpage .part-1 .header1 h4
+{
+    font-size: large;
+    color: gray;
+}
+
+
+.fourthpage .part-2
+{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+.cd img
+{
+    width: 550px!important;
+    border-radius: 0px !important;
+    height: 450px !important;
+}
+
+.card
+{
+    background-color:transparent;
+    border: 0px;
+}
+
+.mg
+{
+   margin-left: 250px;
+   margin-top: 80px;
+}
+
+.cardbody
+{
+    margin-left: 50px;
+}
+
+
+/** ----------------End Fourth Page style------------- */
+
+/** ----------------Start Fourth Page media style------------- */
+
+@media(max-width:600px)
+{
+    .mg {
+        margin-left: 53px;
+        margin-top: 28px;
+    }
+    .cd img {
+        width: 304px!important;
+        border-radius: 0px !important;
+        height: 346px !important;
+    }
+
+    .card img {
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    .card-title {
+        margin-bottom: .75rem;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:320px)
+{
+    .cd img {
+        width: 240px!important;
+        border-radius: 0px !important;
+        height: 318px !important;
+    }
+
+    .cd img {
+        width: 240px!important;
+        border-radius: 0px !important;
+        height: 318px !important;
+    }
+}
+
+@media(max-width:768px)
+{
+    .card-body
+    {
+        margin-top: -68px;
+    }
+}
+
+/* -------------------Start Fifith page style-------------- */
+.fifthpage
+{
+    width: 100%;
+    height: auto;
+    background: rgba(245, 201, 126, 0.9);
+    background-color: #FEE2B3 transparent;
+    background-image: linear-gradient( rgba(245, 201, 126, 0.9),rgba(245, 201, 126, 0.9)),
+url(/imgs/xhero_bg_2.jpg.pagespeed.ic.idX1ZTc2Sk.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.booktable
+{
+    text-align: center;
+}
+
+
+.booktable h4
+{
+    font-size: medium;
+    color: grey;
+    padding-top: 30px;
+}
+
+.booktable h1
+{
+    font-family: "Playfair Display", serif;
+    color: rgb(32, 30, 30);
+   margin-top: 20px;
+}
+
+.booktable .last
+{
+    margin-bottom: 20px;
+}
+
+.booktable button
+{
+    background: #ff5200;
+    color: white;
+    border-radius: 8px;
+    padding: 9px;
+    margin-bottom: 50px;
+}
+
+.booktable button:hover
+{
+    background-color:#fd6e2c;
+}
+
+.booktable button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------End Fifith page style-------------- */
+/* --------------------Start Fifth Pae media style----- */
+/* For Mobile */
+@media(max-width:600px)
+{
+    .booktable h1
+   {
+     font-size: 32px;
+    }
+}
+
+/* --------------------End Fifth Pae media style----- */
+
+.sixthpage
+{
+    width: 100%;
+    height: auto;
+    background-color:#645f56;
+}
+
+.sixthpage .value
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Playfair Display", serif;
+}
+
+.sixthpage .aboutmeal
+{
+    width: 50%;
+    height: auto;
+}
+
+.sixthpage .categories
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.sixthpage .value .aboutmeal
+{
+    padding-left: 100px;
+    padding-top: 80px;
+    color: white;
+}
+
+.sixthpage .value .aboutmeal .p-top
+{
+    padding-top: 40px;
+}
+
+.sixthpage .categories .list1 h4
+{
+    padding-top: 80px;
+    color: white;
+}
+
+.sixthpage .categories .list1 ol
+{
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list1 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list2 h4
+{
+    padding-top: 80px;
+    color: white;
+    margin-left: 150px;
+}
+
+.sixthpage .categories .list2 ol
+{
+    margin-left: 150px;
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list2 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list3 h4
+{
+    padding-top: 80px;
+    color: white;
+    margin-left: 80px;
+}
+
+.sixthpage .categories .list3 ol
+{
+    margin-left: 80px;
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list3 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list1 ol li a
+{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+
+.sixthpage .categories .list1 ol li a:hover
+{
+    color: white;
+}
+
+.sixthpage .categories .list3 ol li:hover
+{
+    color: white;
+}
+
+
+.sixthpage .categories .list2 ol li a
+{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+
+.sixthpage .categories .list2 ol li a:hover
+{
+    color: white;
+}
+
+.sixthpage .copyright p
+{
+    width: 100%;
+   text-align: center;
+   color: white;
+   margin-top: 50px;
+   padding-bottom: 50px;
+}
+
+
+/* -----------------Start Sixth Page Media Style----- */
+
+/* For Tablet */
+
+@media(max-width:768px)
+{
+    .sixthpage .value .aboutmeal {
+        padding-left: 25px;
+        padding-top: 80px;
+    }
+
+    .sixthpage .categories .list1 h4 {
+        margin-left: 45px;
+        margin-bottom: 36px;
+    }
+
+    .sixthpage .categories .list1 ol {
+      
+        margin-left: 40px;
+        margin-top: -32px;
+    }
+
+    .sixthpage .categories .list2 h4 {
+        padding-top: 80px;
+        color: white;
+        margin-left: 67px;
+    }
+
+    .sixthpage .categories .list2 ol {
+        margin-left: 63px;
+        padding: 8px;
+        list-style-type: none;
+    }
+
+    .sixthpage .aboutmeal {
+        width: 30%;
+    }
+}
+
+
+/* For Mobile */
+@media(max-width:600px)
+{
+    .sixthpage .value {
+        display: block;
+    }
+
+    .sixthpage .aboutmeal {
+        width: 100%;
+    }
+
+
+    .sixthpage .categories .list1 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list1 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+    .sixthpage .categories .list2 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list2 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+    .sixthpage .categories .list3 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list3 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+
+
+    .sixthpage .categories {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/* -----------------End Sixth Page Media Style----- */
